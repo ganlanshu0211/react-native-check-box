@@ -114,7 +114,7 @@ export default class CheckBox extends Component {
                 underlayColor='transparent'
                 disabled={this.props.disabled}
             >
-                <View style={[styles.container, {this.props.containerStyle}]}>
+                <View style={[styles.container, this.props.containerStyle]}>
                     {this._renderLeft()}
                     {this._renderImage()}
                     {this._renderRight()}
